@@ -11,61 +11,8 @@
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Included when we wait to call AngularJS at the end of the document -->
-
-  <style>
-  [ng\:cloak], [ng-cloak], .ng-cloak {
-    display: none;
-  }
-
-  body {
-    height: 100%;
-    background-color: white;
-    color: black;
-  }
-
-  #sun {
-    background: url("http://bestanimations.com/Nature/Water/rain/rain-nature-animated-gif-21.gif") no-repeat center center fixed;
-    background-size: cover;
-  }
-  #rain {
-    background: url("http://bestanimations.com/Nature/Water/rain/rain-nature-animated-gif-21.gif") no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #cloud{
-    background: url("https://media.giphy.com/media/3o7rc6sa2RvKo8K5EI/giphy.gif") no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #snow{
-    background: url("http://bestanimations.com/Nature/winter/winter-snow-nature-animated-gif-8.gif") no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  #sun{
-    background: url("http://24.media.tumblr.com/99d65792681f52fd0b3d8a48dd792213/tumblr_muvd3ytmBw1qztgoio1_500.gif") no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  .container {
-    height: 100%;
-    width: 100%;
-    display: table;
-  }
-
-  .centerme {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
-  }
-
-  a {
-    font-size: 25;
-  }
-
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
   <div class="container">
@@ -73,9 +20,9 @@
     <div class="row text-center">
       <h3 class="title">FCC Weather Application</h3>
     </div>
-    <div class="row">
+    <div class="row text-center">
       <!-- We have a main controller -->
-      <div ng-controller="main" id="list" class="text-center col-md-offset-2 col-md-10 ng-scope">
+      <div ng-controller="main" id="list" class="text-center col-md-offset-1 col-md-10 ng-scope">
           <p>{{location}}</p>
           <a href="" id="temp" ng-click="changeTemp()">{{temperature}}&#8451;</a>
       </div>

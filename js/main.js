@@ -23,18 +23,18 @@ app1.controller('main',function($scope,$http,$sce){
                   vm.temperatureFar = Math.round(vm.temperature * 1.8 + 32);
 
                   if (vm.weather === "Rain"){
-                    $('.container').attr('id','rain');
+                    $('body').attr('id','rain');
                   }
                   else if(vm.weather === "Clouds"){
-                    $('.container').attr('id','cloud');
+                    $('body').attr('id','cloud');
                     $('body').css('color','white');
                   }
                   else if(vm.weather === "Snow"){
-                    $('.container').attr('id','snow');
+                    $('body').attr('id','snow');
                     $('body').css('color','black');
                   }
                   else if(vm.weather === "Sunny"){
-                    $('.container').attr('id','sun');
+                    $('body').attr('id','sun');
                   }
                 });
         });

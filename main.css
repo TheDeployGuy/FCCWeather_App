@@ -1,0 +1,49 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none;
+  }
+
+  body {
+    height: 100%;
+    background-color: white;
+    color: black;
+  }
+
+  #sun {
+    background: url("http://bestanimations.com/Nature/Water/rain/rain-nature-animated-gif-21.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+  #rain {
+    background: url("http://bestanimations.com/Nature/Water/rain/rain-nature-animated-gif-21.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #cloud{
+    background: url("https://media.giphy.com/media/3o7rc6sa2RvKo8K5EI/giphy.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #snow{
+    background: url("http://bestanimations.com/Nature/winter/winter-snow-nature-animated-gif-8.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #sun{
+    background: url("http://24.media.tumblr.com/99d65792681f52fd0b3d8a48dd792213/tumblr_muvd3ytmBw1qztgoio1_500.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+
+  .centerme {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  a {
+    font-size: 20;
+  }
