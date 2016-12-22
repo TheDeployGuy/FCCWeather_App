@@ -1,5 +1,5 @@
-[ng\:cloak], [ng-cloak], .ng-cloak {
-    display: none;
+  [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
   }
 
   body {
@@ -45,5 +45,5 @@
   }
 
   a {
-    font-size: 20;
+    font-size: x-large;
   }
